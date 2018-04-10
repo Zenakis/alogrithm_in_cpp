@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AD30CA041E56A0B700B43765 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD30CA031E56A0B700B43765 /* main.cpp */; };
+		AD30CA0F1E56F86C00B43765 /* label_setting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD30CA0D1E56F86C00B43765 /* label_setting.cpp */; };
+		AD30CA121E5B0EF000B43765 /* adjacency_struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD30CA0A1E56A40A00B43765 /* adjacency_struct.cpp */; };
+		AD6BF7131E71148F00915A62 /* linear_algebra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6BF7111E71148F00915A62 /* linear_algebra.cpp */; };
+		AD9ABE0A1E5D86CE00D05A0E /* dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABE081E5D86CE00D05A0E /* dijkstra.cpp */; };
+		AD9ABE0E1E66B41300D05A0E /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABE0C1E66B41300D05A0E /* basic.cpp */; };
+		AD9ABE121E66BA2500D05A0E /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABE101E66BA2500D05A0E /* Sort.cpp */; };
+		AD9ABE161E66D2D200D05A0E /* Set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABE141E66D2D200D05A0E /* Set.cpp */; };
+		AD9ABE1A1E67BA7900D05A0E /* binarytree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABE181E67BA7900D05A0E /* binarytree.cpp */; };
+		AD9ABE1E1E67D7EF00D05A0E /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9ABE1C1E67D7EF00D05A0E /* search.cpp */; };
+		ADE981721E8BB91500912547 /* linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADE981701E8BB91500912547 /* linked_list.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD30CA001E56A0B700B43765 /* alogrithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alogrithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD30CA001E56A0B700B43765 /* alogrithm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; includeInIndex = 0; path = alogrithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD30CA031E56A0B700B43765 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD30CA0A1E56A40A00B43765 /* adjacency_struct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adjacency_struct.cpp; path = alogrithm/adjacency_struct.cpp; sourceTree = "<group>"; };
+		AD30CA0B1E56A40A00B43765 /* adjacency_struct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = adjacency_struct.hpp; path = alogrithm/adjacency_struct.hpp; sourceTree = "<group>"; };
+		AD30CA0D1E56F86C00B43765 /* label_setting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = label_setting.cpp; path = alogrithm/label_setting.cpp; sourceTree = "<group>"; };
+		AD30CA0E1E56F86C00B43765 /* label_setting.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = label_setting.hpp; path = alogrithm/label_setting.hpp; sourceTree = "<group>"; };
+		AD6BF7111E71148F00915A62 /* linear_algebra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linear_algebra.cpp; sourceTree = "<group>"; };
+		AD6BF7121E71148F00915A62 /* linear_algebra.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linear_algebra.hpp; sourceTree = "<group>"; };
+		AD9ABE081E5D86CE00D05A0E /* dijkstra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dijkstra.cpp; sourceTree = "<group>"; };
+		AD9ABE091E5D86CE00D05A0E /* dijkstra.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dijkstra.hpp; sourceTree = "<group>"; };
+		AD9ABE0C1E66B41300D05A0E /* basic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basic.cpp; sourceTree = "<group>"; };
+		AD9ABE0D1E66B41300D05A0E /* basic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = basic.hpp; sourceTree = "<group>"; };
+		AD9ABE101E66BA2500D05A0E /* Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
+		AD9ABE111E66BA2500D05A0E /* Sort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sort.hpp; sourceTree = "<group>"; };
+		AD9ABE141E66D2D200D05A0E /* Set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Set.cpp; sourceTree = "<group>"; };
+		AD9ABE151E66D2D200D05A0E /* Set.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Set.hpp; sourceTree = "<group>"; };
+		AD9ABE181E67BA7900D05A0E /* binarytree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binarytree.cpp; sourceTree = "<group>"; };
+		AD9ABE191E67BA7900D05A0E /* binarytree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = binarytree.hpp; sourceTree = "<group>"; };
+		AD9ABE1C1E67D7EF00D05A0E /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		AD9ABE1D1E67D7EF00D05A0E /* search.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = search.hpp; sourceTree = "<group>"; };
+		ADE981701E8BB91500912547 /* linked_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linked_list.cpp; sourceTree = "<group>"; };
+		ADE981711E8BB91500912547 /* linked_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linked_list.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +71,16 @@
 		AD30C9F71E56A0B700B43765 = {
 			isa = PBXGroup;
 			children = (
+				ADE9816F1E8BB90200912547 /* linked_list */,
+				AD6BF7101E71146100915A62 /* linear_algebra */,
+				AD9ABE1B1E67D7DF00D05A0E /* search */,
+				AD9ABE171E67BA5C00D05A0E /* binary_tree */,
+				AD9ABE131E66C7B900D05A0E /* set */,
+				AD9ABE0F1E66BA0B00D05A0E /* sort */,
+				AD9ABE0B1E66B3FF00D05A0E /* basic */,
+				AD9ABE071E5D86A800D05A0E /* dijkstra */,
+				AD30CA111E570B1000B43765 /* adjacency_struct */,
+				AD30CA101E570AED00B43765 /* label_setting */,
 				AD30CA021E56A0B700B43765 /* alogrithm */,
 				AD30CA011E56A0B700B43765 /* Products */,
 			);
@@ -60,6 +100,96 @@
 				AD30CA031E56A0B700B43765 /* main.cpp */,
 			);
 			path = alogrithm;
+			sourceTree = "<group>";
+		};
+		AD30CA101E570AED00B43765 /* label_setting */ = {
+			isa = PBXGroup;
+			children = (
+				AD30CA0D1E56F86C00B43765 /* label_setting.cpp */,
+				AD30CA0E1E56F86C00B43765 /* label_setting.hpp */,
+			);
+			name = label_setting;
+			sourceTree = "<group>";
+		};
+		AD30CA111E570B1000B43765 /* adjacency_struct */ = {
+			isa = PBXGroup;
+			children = (
+				AD30CA0A1E56A40A00B43765 /* adjacency_struct.cpp */,
+				AD30CA0B1E56A40A00B43765 /* adjacency_struct.hpp */,
+			);
+			name = adjacency_struct;
+			sourceTree = "<group>";
+		};
+		AD6BF7101E71146100915A62 /* linear_algebra */ = {
+			isa = PBXGroup;
+			children = (
+				AD6BF7111E71148F00915A62 /* linear_algebra.cpp */,
+				AD6BF7121E71148F00915A62 /* linear_algebra.hpp */,
+			);
+			name = linear_algebra;
+			sourceTree = "<group>";
+		};
+		AD9ABE071E5D86A800D05A0E /* dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABE081E5D86CE00D05A0E /* dijkstra.cpp */,
+				AD9ABE091E5D86CE00D05A0E /* dijkstra.hpp */,
+			);
+			name = dijkstra;
+			sourceTree = "<group>";
+		};
+		AD9ABE0B1E66B3FF00D05A0E /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABE0C1E66B41300D05A0E /* basic.cpp */,
+				AD9ABE0D1E66B41300D05A0E /* basic.hpp */,
+			);
+			name = basic;
+			sourceTree = "<group>";
+		};
+		AD9ABE0F1E66BA0B00D05A0E /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABE101E66BA2500D05A0E /* Sort.cpp */,
+				AD9ABE111E66BA2500D05A0E /* Sort.hpp */,
+			);
+			name = sort;
+			sourceTree = "<group>";
+		};
+		AD9ABE131E66C7B900D05A0E /* set */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABE141E66D2D200D05A0E /* Set.cpp */,
+				AD9ABE151E66D2D200D05A0E /* Set.hpp */,
+			);
+			name = set;
+			sourceTree = "<group>";
+		};
+		AD9ABE171E67BA5C00D05A0E /* binary_tree */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABE181E67BA7900D05A0E /* binarytree.cpp */,
+				AD9ABE191E67BA7900D05A0E /* binarytree.hpp */,
+			);
+			name = binary_tree;
+			sourceTree = "<group>";
+		};
+		AD9ABE1B1E67D7DF00D05A0E /* search */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABE1C1E67D7EF00D05A0E /* search.cpp */,
+				AD9ABE1D1E67D7EF00D05A0E /* search.hpp */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		ADE9816F1E8BB90200912547 /* linked_list */ = {
+			isa = PBXGroup;
+			children = (
+				ADE981701E8BB91500912547 /* linked_list.cpp */,
+				ADE981711E8BB91500912547 /* linked_list.hpp */,
+			);
+			name = linked_list;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD30CA121E5B0EF000B43765 /* adjacency_struct.cpp in Sources */,
+				AD9ABE1E1E67D7EF00D05A0E /* search.cpp in Sources */,
+				AD9ABE0A1E5D86CE00D05A0E /* dijkstra.cpp in Sources */,
 				AD30CA041E56A0B700B43765 /* main.cpp in Sources */,
+				AD9ABE121E66BA2500D05A0E /* Sort.cpp in Sources */,
+				AD6BF7131E71148F00915A62 /* linear_algebra.cpp in Sources */,
+				AD9ABE1A1E67BA7900D05A0E /* binarytree.cpp in Sources */,
+				AD30CA0F1E56F86C00B43765 /* label_setting.cpp in Sources */,
+				AD9ABE0E1E66B41300D05A0E /* basic.cpp in Sources */,
+				AD9ABE161E66D2D200D05A0E /* Set.cpp in Sources */,
+				ADE981721E8BB91500912547 /* linked_list.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 39X349FQT3;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 39X349FQT3;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -249,6 +391,7 @@
 				AD30CA091E56A0B700B43765 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
